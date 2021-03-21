@@ -24,12 +24,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/amnpoosri/rn-animated-snackbar.git"
+    "url": "git+https://github.com/s-group-dev/rn_animated_snackbar.git"
   },
   "bugs": {
-    "url": "https://github.com/amnpoosri/rn-animated-snackbar/issues"
+    "url": "https://github.com/s-group-dev/rn_animated_snackbar/issues"
   },
-  "homepage": "https://github.com/amnpoosri/rn-animated-snackbar#readme",
+  "homepage": "https://github.com/s-group-dev/rn_animated_snackbar",
   "scripts": {
     "prepare": "bob build",
     "lint": "eslint .",

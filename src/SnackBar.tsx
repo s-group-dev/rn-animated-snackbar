@@ -182,17 +182,12 @@ const Snackbar = ({
   );
 };
 
-Snackbar.DURATION_SHORT = LENGTH_SHORT;
-Snackbar.DURATION_MEDIUM = LENGTH_MEDIUM;
-Snackbar.DURATION_LONG = LENGTH_LONG;
-Snackbar.DURATION_INFINITY = LENGTH_INDEFINITE;
+Snackbar.LENGTH_SHORT = LENGTH_SHORT;
+Snackbar.LENGTH_MEDIUM = LENGTH_MEDIUM;
+Snackbar.LENGTH_LONG = LENGTH_LONG;
+Snackbar.LENGTH_INDEFINITE = LENGTH_INDEFINITE;
 
 const styles = StyleSheet.create({
-  wrapper: {
-    position: 'absolute',
-    bottom: 0,
-    width: '100%',
-  },
   container: {
     elevation: 6,
     flexDirection: 'row',
