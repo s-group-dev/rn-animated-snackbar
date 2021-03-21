@@ -14,19 +14,19 @@ const App = () => {
           onPress={onToggleSnackBar}
           style={styles.buttonStyle}
         />
-        <View style={styles.snackbarContainer}>
-          <Snackbar
-            visible={visible}
-            onDismiss={onDismissSnackBar}
-            text={'Hello World'}
-            action={{
-              label: 'Hide',
-              onPress: () => {
-                setVisible(true);
-              },
-            }}
-          />
-        </View>
+        <Snackbar
+          visible={visible}
+          onDismiss={onDismissSnackBar}
+          text={'Hello World'}
+          action={{
+            label: 'Hide',
+            onPress: () => {
+              setVisible(true);
+            },
+          }}
+          duration={Snackbar.LENGTH_MEDIUM}
+          containerStyle={styles.snackbarContainer}
+        />
       </View>
     </SafeAreaView>
   );
@@ -42,10 +42,11 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   snackbarContainer: {
+    backgroundColor: '#484848',
     position: 'absolute',
     left: 0,
-    bottom: 0,
     right: 0,
+    bottom: 0,
   },
 });
 
